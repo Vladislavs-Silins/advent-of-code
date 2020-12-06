@@ -1,15 +1,15 @@
-import React, { FC, ReactElement } from 'react';
+import React, { FC, ReactElement } from "react";
+import { solution } from "./solutions/day1/solution-2";
 
 interface Props {
-    data: string;
+  data: string;
 }
 
-
 export const Advent: FC<Props> = ({ data }: Props): ReactElement => {
-    return (
-        <div>
-            <h2>{data}</h2>
-        </div>
-    )
+  const result = solution();
+  return (
+    <div>
+      <h2>{result}</h2>
+    </div>
+  );
 };
-

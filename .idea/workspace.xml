@@ -1,12 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2f7b121-3deb-4aa0-8373-afcfb3a6082f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/advent/advent.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/advent/index.tsx" afterDir="false" />
+    <list default="true" id="d2f7b121-3deb-4aa0-8373-afcfb3a6082f" name="Default Changelist" comment="feat: data output added">
+      <change afterPath="$PROJECT_DIR$/src/components/advent/data/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day1/solution-1/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day1/solution-1/puzzle.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day1/solution-1/solution.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day1/solution-2/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day1/solution-2/puzzle.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day1/solution-2/solution.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day2/solution-1/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day2/solution-1/puzzle.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day2/solution-1/solution.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/advent/utils/puzzle-transform.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/advent/advent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/advent/advent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/advent/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/advent/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reportWebVitals.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,17 +52,24 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/advent/solutions" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\My projects\advent-of-code\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="ts.external.directory.path" value="C:\My projects\advent-of-code\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\My projects\advent-of-code\src\components\advent\solutions" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\My projects\advent-of-code\src\components\advent\solutions\day1" />
+      <recent name="C:\My projects\advent-of-code\src\components\advent\solutions\solution-1" />
       <recent name="C:\My projects\advent-of-code\src\components\advent" />
     </key>
   </component>
@@ -75,8 +101,16 @@
       <workItem from="1607179083264" duration="769000" />
       <workItem from="1607179879047" duration="739000" />
       <workItem from="1607261130369" duration="716000" />
-      <workItem from="1607261874735" duration="160000" />
+      <workItem from="1607261874735" duration="8307000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: data output added">
+      <created>1607262110096</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607262110096</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,12 +121,22 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: data output added" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: data output added" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

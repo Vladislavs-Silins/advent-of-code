@@ -1,13 +1,12 @@
-import React from 'react';
-import './App.css';
-import {Advent} from "./components/advent";
-
+import React from "react";
+import "./App.css";
+import { Advent } from "./components/advent";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Advent data={'Data'}/>
+        <Advent data={"Data"} />
       </header>
     </div>
   );
