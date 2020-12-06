@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2f7b121-3deb-4aa0-8373-afcfb3a6082f" name="Default Changelist" comment="feat: day 1 solved">
-      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day2/solution-2/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day2/solution-2/puzzle.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day2/solution-2/solution.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day3/solution-1/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day3/solution-1/puzzle.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day3/solution-1/solution.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day3/solution-2/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day3/solution-2/puzzle.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day3/solution-2/solution.ts" afterDir="false" />
+    <list default="true" id="d2f7b121-3deb-4aa0-8373-afcfb3a6082f" name="Default Changelist" comment="feat: day 2 solved">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/advent/advent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/advent/advent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/advent/solutions/day2/solution-1/solution.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/advent/solutions/day2/solution-1/solution.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/advent/solutions/day3/solution-1/puzzle.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/advent/solutions/day3/solution-1/puzzle.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/advent/solutions/day3/solution-1/solution.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/advent/solutions/day3/solution-1/solution.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/advent/solutions/day3/solution-2/puzzle.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/advent/solutions/day3/solution-2/puzzle.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/advent/solutions/day3/solution-2/solution.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/advent/solutions/day3/solution-2/solution.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +27,7 @@
   <component name="ProjectId" id="1lF1KtkaNaFczaXn7ERicbEBQEC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -40,7 +35,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/advent/solutions" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/advent/solutions/day3" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -53,6 +48,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\My projects\advent-of-code\src\components\advent\solutions\day3" />
       <recent name="C:\My projects\advent-of-code\src\components\advent\solutions" />
       <recent name="C:\My projects\advent-of-code\src\components\advent\solutions\day2" />
     </key>
@@ -90,7 +86,7 @@
       <workItem from="1607179083264" duration="769000" />
       <workItem from="1607179879047" duration="739000" />
       <workItem from="1607261130369" duration="716000" />
-      <workItem from="1607261874735" duration="10249000" />
+      <workItem from="1607261874735" duration="17305000" />
     </task>
     <task id="LOCAL-00001" summary="feat: data output added">
       <created>1607262110096</created>
@@ -106,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607270314473</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: day 2 solved">
+      <created>1607272517001</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607272517001</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,7 +136,20 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: data output added" />
     <MESSAGE value="feat: day 1 solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: day 1 solved" />
+    <MESSAGE value="feat: day 2 solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: day 2 solved" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/advent/solutions/day3/solution-1/solution.ts</url>
+          <line>80</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
