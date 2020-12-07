@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2f7b121-3deb-4aa0-8373-afcfb3a6082f" name="Default Changelist" comment="feat: day 2 solved">
+      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day4/solution-1/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day4/solution-1/puzzle.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day4/solution-1/solution.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day4/solution-2/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day4/solution-2/puzzle.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day4/solution-2/solution.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/advent/advent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/advent/advent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/advent/solutions/day3/solution-1/puzzle.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/advent/solutions/day3/solution-1/puzzle.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/advent/solutions/day3/solution-1/solution.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/advent/solutions/day3/solution-1/solution.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/advent/solutions/day3/solution-2/puzzle.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/advent/solutions/day3/solution-2/puzzle.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/advent/solutions/day3/solution-2/solution.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/advent/solutions/day3/solution-2/solution.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,19 +37,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/advent/solutions/day3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/advent/solutions" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\My projects\advent-of-code\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
-    <property name="ts.external.directory.path" value="C:\My projects\advent-of-code\node_modules\typescript\lib" />
+    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
+    <property name="ts.external.directory.path" value="C:\Users\vsilins\Documents\Github\advent-of-code\advent-of-code\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vsilins\Documents\Github\advent-of-code\advent-of-code\src\components\advent\solutions" />
       <recent name="C:\My projects\advent-of-code\src\components\advent\solutions\day3" />
       <recent name="C:\My projects\advent-of-code\src\components\advent\solutions" />
       <recent name="C:\My projects\advent-of-code\src\components\advent\solutions\day2" />
@@ -87,6 +90,8 @@
       <workItem from="1607179879047" duration="739000" />
       <workItem from="1607261130369" duration="716000" />
       <workItem from="1607261874735" duration="17305000" />
+      <workItem from="1607358457215" duration="723000" />
+      <workItem from="1607359283432" duration="1726000" />
     </task>
     <task id="LOCAL-00001" summary="feat: data output added">
       <created>1607262110096</created>
@@ -145,7 +150,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/advent/solutions/day3/solution-1/solution.ts</url>
           <line>80</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
