@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2f7b121-3deb-4aa0-8373-afcfb3a6082f" name="Default Changelist" comment="feat: day 2 solved">
-      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day4/solution-1/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day4/solution-1/puzzle.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day4/solution-1/solution.ts" afterDir="false" />
+    <list default="true" id="d2f7b121-3deb-4aa0-8373-afcfb3a6082f" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day4/solution-2/index.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day4/solution-2/puzzle.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day4/solution-2/solution.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/advent/advent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/advent/advent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/advent/utils/puzzle-transform.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/advent/utils/puzzle-transform.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +35,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/advent/solutions" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/advent/solutions/day4" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -50,6 +48,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vsilins\Documents\Github\advent-of-code\advent-of-code\src\components\advent\solutions\day4" />
       <recent name="C:\Users\vsilins\Documents\Github\advent-of-code\advent-of-code\src\components\advent\solutions" />
       <recent name="C:\My projects\advent-of-code\src\components\advent\solutions\day3" />
       <recent name="C:\My projects\advent-of-code\src\components\advent\solutions" />
@@ -91,7 +90,7 @@
       <workItem from="1607261130369" duration="716000" />
       <workItem from="1607261874735" duration="17305000" />
       <workItem from="1607358457215" duration="723000" />
-      <workItem from="1607359283432" duration="1726000" />
+      <workItem from="1607359283432" duration="3836000" />
     </task>
     <task id="LOCAL-00001" summary="feat: data output added">
       <created>1607262110096</created>
@@ -114,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607272517001</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: day 4.1 solved">
+      <created>1607361197326</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607361197326</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,10 +145,13 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="feat: data output added" />
     <MESSAGE value="feat: day 1 solved" />
     <MESSAGE value="feat: day 2 solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: day 2 solved" />
+    <MESSAGE value="feat: day 4.1 solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: day 4.1 solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
