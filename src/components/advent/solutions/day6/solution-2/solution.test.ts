@@ -1,9 +1,4 @@
-import {
-  getInput,
-  readGroups,
-
-  solution,
-} from "./";
+import { getInput, readGroups, solution } from "./";
 
 describe("puzzle", () => {
   describe("solution()", () => {
@@ -13,7 +8,7 @@ describe("puzzle", () => {
     });
     it("should return right answer", async () => {
       const result = solution();
-      const expectedResult = 6703;
+      const expectedResult = 3430;
       expect(result).toEqual(expectedResult);
     });
   });
