@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2f7b121-3deb-4aa0-8373-afcfb3a6082f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day5/solution-1/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day5/solution-1/puzzle.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day5/solution-1/solution.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day5/solution-1/solution.ts" afterDir="false" />
+    <list default="true" id="d2f7b121-3deb-4aa0-8373-afcfb3a6082f" name="Default Changelist" comment="feat: day 5.1 solved">
+      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day5/solution-2/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day5/solution-2/puzzle.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day5/solution-2/solution.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day5/solution-2/solution.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/advent/advent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/advent/advent.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +37,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/advent/solutions/day5" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -43,16 +46,16 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\My projects\advent-of-code\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="settings.saveactions" />
-    <property name="ts.external.directory.path" value="C:\Users\vsilins\Documents\Github\advent-of-code\advent-of-code\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\My projects\advent-of-code\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\My projects\advent-of-code\src\components\advent\solutions\day5" />
       <recent name="C:\Users\vsilins\Documents\Github\advent-of-code\advent-of-code\src\components\advent\solutions" />
       <recent name="C:\Users\vsilins\Documents\Github\advent-of-code\advent-of-code\src\components\advent\solutions\day4" />
       <recent name="C:\My projects\advent-of-code\src\components\advent\solutions\day3" />
       <recent name="C:\My projects\advent-of-code\src\components\advent\solutions" />
-      <recent name="C:\My projects\advent-of-code\src\components\advent\solutions\day2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\My projects\advent-of-code\src\components\advent\solutions\day1" />
@@ -60,7 +63,7 @@
       <recent name="C:\My projects\advent-of-code\src\components\advent" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="Jest.solution.test.ts (1)">
     <configuration name="puzzle.convertToBin().should pass test 1" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -91,6 +94,31 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="puzzle.solution().should return right answer" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/advent/solutions/day5/solution-2/solution.test.ts" />
+      <test-names>
+        <test-name value="puzzle" />
+        <test-name value="solution()" />
+        <test-name value="should return right answer" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="solution.test.ts (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/components/advent/solutions/day5/solution-2/solution.test.ts" />
+      <method v="2" />
+    </configuration>
     <configuration name="solution.test.ts" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -116,6 +144,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.solution.test.ts (1)" />
+        <item itemvalue="Jest.puzzle.solution().should return right answer" />
         <item itemvalue="Jest.solution.test.ts" />
         <item itemvalue="Jest.puzzle.convertToBin().should pass test 1" />
         <item itemvalue="Jest.puzzle.convertToBin().should pass test" />
@@ -138,6 +168,7 @@
       <workItem from="1607261874735" duration="17305000" />
       <workItem from="1607358457215" duration="723000" />
       <workItem from="1607359283432" duration="9900000" />
+      <workItem from="1607444772779" duration="2607000" />
     </task>
     <task id="LOCAL-00001" summary="feat: data output added">
       <created>1607262110096</created>
@@ -181,7 +212,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607438180014</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: day 5.1 solved">
+      <created>1607444795195</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607444795195</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: day 5.1 solved">
+      <created>1607444889333</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1607444889333</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,7 +259,8 @@
     <MESSAGE value="feat: day 4.1 solved" />
     <MESSAGE value="chore: intermediate" />
     <MESSAGE value="feat: day 4.2 solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: day 4.2 solved" />
+    <MESSAGE value="feat: day 5.1 solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: day 5.1 solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,5 +1,5 @@
-import React, { FC, ReactElement } from 'react';
-import { solution } from './solutions/day5/solution-1';
+import React, { FC, ReactElement } from "react";
+import { solution } from "./solutions/day5/solution-2";
 
 interface Props {
   data: string;
