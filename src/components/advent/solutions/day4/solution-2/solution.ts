@@ -81,12 +81,16 @@ type DocumentField = 'byr' | 'iyr' | 'eyr' | 'hgt' | 'hcl' | 'ecl' | 'pid' | 'ci
 type Document = {
   [key in DocumentField]?: string;
 }
+
+type Validator = {
+  [key in DocumentField]: (data: string) => boolean;
+}
 const FIELDS = ['byr', 'iyr', 'eyr', 'hgt', 'hcl', 'ecl', 'pid'];
-const VALIDATOR = {
+const VALIDATOR: Validator = {
   byr: (data: string) => {
     try {
       const value = toNumber(data);
-      const hasFourDigits = data.length === 4;
+      const hasFourDigits = /^[0-9]{4}$/.test(data);
       const isInInterval = value >= 1920 && value <= 2002;
       return hasFourDigits && isInInterval;
     } catch (e) {
@@ -96,7 +100,7 @@ const VALIDATOR = {
   iyr: (data: string) => {
     try {
       const value = toNumber(data);
-      const hasFourDigits = data.length === 4;
+      const hasFourDigits = /^[0-9]{4}$/.test(data);
       const isInInterval = value >= 2010 && value <= 2020;
       return hasFourDigits && isInInterval;
     } catch (e) {
@@ -106,7 +110,7 @@ const VALIDATOR = {
   eyr: (data: string) => {
     try {
       const value = toNumber(data);
-      const hasFourDigits = data.length === 4;
+      const hasFourDigits = /^[0-9]{4}$/.test(data);
       const isInInterval = value >= 2020 && value <= 2030;
       return hasFourDigits && isInInterval;
     } catch (e) {
@@ -119,7 +123,7 @@ const VALIDATOR = {
       const value = toNumber(data.slice(0, -2));
       const isCmInInterval = measure === 'cm' && value >= 150 && value <= 193;
       const isInInInterval = measure === 'in' && value >= 59 && value <= 76;
-      return isCmInInterval && isInInInterval;
+      return isCmInInterval || isInInInterval;
     } catch (e) {
       return false;
     }
@@ -127,6 +131,27 @@ const VALIDATOR = {
   hcl: (data: string) => {
     try {
       return /^#[0-9a-f]{6}$/.test(data);
+    } catch (e) {
+      return false;
+    }
+  },
+  ecl: (data: string) => {
+    try {
+      return /^amb$|^blu$|^brn$|^gry$|^grn$|^hzl$|^oth$/.test(data);
+    } catch (e) {
+      return false;
+    }
+  },
+  pid: (data: string) => {
+    try {
+      return /^[0-9]{9}$/.test(data);
+    } catch (e) {
+      return false;
+    }
+  },
+  cid: (data: string) => {
+    try {
+      return true;
     } catch (e) {
       return false;
     }
@@ -159,10 +184,17 @@ export const solution = (): number => {
   console.log(documents);
   let count = 0;
   documents.forEach((item: Document) => {
+    console.log(`
+    `);
     const keyList = keys(omit(item, 'cid'));
-    const result = xor(keyList, FIELDS);
+    const isFieldSetCorrect = isEmpty(xor(keyList, FIELDS));
+    const isValid = keyList.reduce((validationResult: boolean, key: string) => {
+      const documentField = key as DocumentField;
+      console.log(documentField, `|${item[documentField]}|`, VALIDATOR[documentField](item[documentField]!));
+      return validationResult && VALIDATOR[documentField](item[documentField]!);
+    }, true);
     // console.log(keyList, result);
-    if (isEmpty(result)) {
+    if (isFieldSetCorrect && isValid) {
       count++;
     }
   });

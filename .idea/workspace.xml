@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2f7b121-3deb-4aa0-8373-afcfb3a6082f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day4/solution-2/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day4/solution-2/puzzle.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day4/solution-2/solution.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/advent/advent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/advent/advent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/advent/utils/puzzle-transform.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/advent/utils/puzzle-transform.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/advent/solutions/day4/solution-2/solution.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/advent/solutions/day4/solution-2/solution.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +86,7 @@
       <workItem from="1607261130369" duration="716000" />
       <workItem from="1607261874735" duration="17305000" />
       <workItem from="1607358457215" duration="723000" />
-      <workItem from="1607359283432" duration="3836000" />
+      <workItem from="1607359283432" duration="8841000" />
     </task>
     <task id="LOCAL-00001" summary="feat: data output added">
       <created>1607262110096</created>
@@ -120,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607361197326</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="chore: intermediate">
+      <created>1607363177820</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607363177821</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,7 +154,8 @@
     <MESSAGE value="feat: day 1 solved" />
     <MESSAGE value="feat: day 2 solved" />
     <MESSAGE value="feat: day 4.1 solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: day 4.1 solved" />
+    <MESSAGE value="chore: intermediate" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: intermediate" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
