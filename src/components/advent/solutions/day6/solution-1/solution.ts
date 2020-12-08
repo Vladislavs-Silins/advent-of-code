@@ -65,32 +65,27 @@ You can also [Shareon Twitter Mastodon] this puzzle.
 
 import raw from "raw.macro";
 import { puzzleTransform } from "../../../utils/puzzle-transform";
-import { first, toNumber } from "lodash";
+import { first, toNumber, isEmpty, union } from "lodash";
 
-export interface Seat {
-  row: number;
-  column: number;
-}
-export const calculateSeat = (data: string): Seat => {
-  const encryptedRow = data.slice(0, -3).replace(/F/g, "0").replace(/B/g, "1");
-  const encryptedColumn = data.slice(-3).replace(/L/g, "0").replace(/R/g, "1");
-
-  return {
-    row: parseInt(encryptedRow, 2),
-    column: parseInt(encryptedColumn, 2),
-  };
-};
-
-export const calculateId = (data: string): number => {
-  const seat = calculateSeat(data);
-  return seat.row * 8 + seat.column;
+export const getInput = () => puzzleTransform(raw("./puzzle.txt"));
+export const readGroups = (input: string[]): string[]=> {
+  const groupAnswers: string[] = [];
+  let answer: string[] = [];
+  input.forEach((line: string) => {
+    if (isEmpty(line.trim())) {
+      groupAnswers.push(answer.join(''));
+      answer = [];
+      return;
+    }
+    const parsedLine = line.split("");
+    answer = union(answer, parsedLine);
+  });
+  return groupAnswers;
 };
 export const solution = (): number => {
-  const input = puzzleTransform(raw("./puzzle.txt"));
-  let count = 0;
-  const ids = input
-    .map((data: string) => calculateId(data))
-    .sort((a, b) => b - a);
-  count = toNumber(first(ids));
+  const input = getInput();
+  const count = readGroups(input).reduce((sum: number,answers: string ) => {
+    return sum + answers.length;
+  }, 0)
   return count;
 };
