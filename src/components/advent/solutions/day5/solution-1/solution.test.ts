@@ -1,44 +1,59 @@
-import { checkUndefinedValues, checkUndefinedValuesAndEmptyArrays } from './';
+import { calculateId, calculateSeat, Seat, solution } from "./";
 
-let valueForCheck: unknown;
-describe('omit helpers', () => {
-  describe('checkUndefinedValues()', () => {
-    it('should return false for not empty value', async () => {
-      valueForCheck = 'test';
-      const isUndefined = checkUndefinedValues(valueForCheck);
-      expect(isUndefined).toBe(false);
+describe("puzzle", () => {
+  describe("solution()", () => {
+    it("should return number", async () => {
+      const result = solution();
+      expect(typeof result).toBe("number");
     });
-    it('should return false for null value', async () => {
-      valueForCheck = null;
-      const isUndefined = checkUndefinedValues(valueForCheck);
-      expect(isUndefined).toBe(false);
-    });
-    it('should return true for undefined value', async () => {
-      valueForCheck = undefined;
-      const isUndefined = checkUndefinedValues(valueForCheck);
-      expect(isUndefined).toBe(true);
+    it("should return right answer", async () => {
+      const result = solution();
+      const expectedResult = 871;
+      expect(result).toEqual(expectedResult);
     });
   });
-  describe('checkUndefinedValuesAndEmptyArrays()', () => {
-    it('should return false for not empty array', async () => {
-      valueForCheck = ['test'];
-      const isUndefined = checkUndefinedValuesAndEmptyArrays(valueForCheck);
-      expect(isUndefined).toBe(false);
+  describe("convertToBin()", () => {
+    it("should pass test 1", async () => {
+      const result = calculateSeat("FBFBBFFRLR");
+      const expectedResult: Seat = { row: 44, column: 5 };
+      expect(result).toEqual(expectedResult);
     });
-    it('should return true for empty array', async () => {
-      valueForCheck = [];
-      const isUndefined = checkUndefinedValuesAndEmptyArrays(valueForCheck);
-      expect(isUndefined).toBe(true);
+    it("should pass test 2", async () => {
+      const result = calculateSeat("BFFFBBFRRR");
+      const expectedResult: Seat = { row: 70, column: 7 };
+      expect(result).toEqual(expectedResult);
     });
-    it('should return false for null value', async () => {
-      valueForCheck = null;
-      const isUndefined = checkUndefinedValuesAndEmptyArrays(valueForCheck);
-      expect(isUndefined).toBe(false);
+    it("should pass test 3", async () => {
+      const result = calculateSeat("FFFBBBFRRR");
+      const expectedResult: Seat = { row: 14, column: 7 };
+      expect(result).toEqual(expectedResult);
     });
-    it('should return true for undefined value', async () => {
-      valueForCheck = undefined;
-      const isUndefined = checkUndefinedValuesAndEmptyArrays(valueForCheck);
-      expect(isUndefined).toBe(true);
+    it("should pass test 4", async () => {
+      const result = calculateSeat("BBFFBBFRLL");
+      const expectedResult: Seat = { row: 102, column: 4 };
+      expect(result).toEqual(expectedResult);
+    });
+  });
+  describe("calculateId()", () => {
+    it("should pass test 1", async () => {
+      const result = calculateId("FBFBBFFRLR");
+      const expectedResult = 357;
+      expect(result).toEqual(expectedResult);
+    });
+    it("should pass test 2", async () => {
+      const result = calculateId("BFFFBBFRRR");
+      const expectedResult = 567;
+      expect(result).toEqual(expectedResult);
+    });
+    it("should pass test 3", async () => {
+      const result = calculateId("FFFBBBFRRR");
+      const expectedResult = 119;
+      expect(result).toEqual(expectedResult);
+    });
+    it("should pass test 4", async () => {
+      const result = calculateId("BBFFBBFRLL");
+      const expectedResult = 820;
+      expect(result).toEqual(expectedResult);
     });
   });
 });
