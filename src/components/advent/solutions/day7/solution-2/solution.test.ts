@@ -11,7 +11,7 @@ const mockPuzzleTransform = jest.spyOn(puzzleTransform, "puzzleTransform");
 const MOCKED_RULES = `shiny gold bags contain 1 dark olive bag, 2 vibrant plum bags.
 dark olive bags contain 3 faded blue bags, 4 dotted black bags.
 vibrant plum bags contain 5 faded blue bags, 6 dotted black bags.
-faded blue bags contain no other bags.
+faded blue bags contain no other bags. 
 dotted black bags contain no other bags.`.split("\n");
 describe("puzzle", () => {
   describe("solution()", () => {
