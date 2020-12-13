@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2f7b121-3deb-4aa0-8373-afcfb3a6082f" name="Default Changelist" comment="feat: day 6.2 solved">
-      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day7/solution-1/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day7/solution-1/puzzle.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day7/solution-1/solution.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day7/solution-1/solution.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day7/solution-2/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day7/solution-2/puzzle.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day7/solution-2/solution.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day7/solution-2/solution.ts" afterDir="false" />
+    <list default="true" id="d2f7b121-3deb-4aa0-8373-afcfb3a6082f" name="Default Changelist" comment="feat: day 7 solved">
+      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day8/solution-1/guards/enum.guard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day8/solution-1/guards/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day8/solution-1/guards/instruction.guard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day8/solution-1/guards/simulation.guard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day8/solution-1/guards/state.guard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day8/solution-1/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day8/solution-1/puzzle.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day8/solution-1/solution.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day8/solution-1/solution.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day8/solution-1/types/command.enum.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day8/solution-1/types/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day8/solution-1/types/sign.enum.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day8/solution-1/types/simulation.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/advent/solutions/day8/solution-1/types/type.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +45,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/advent/solutions/day7" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/advent/solutions/day8/solution-1/guards" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -53,11 +59,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\My projects\advent-of-code\src\components\advent\solutions\day7" />
+      <recent name="C:\My projects\advent-of-code\src\components\advent\solutions\day8\solution-1\guards" />
+      <recent name="C:\My projects\advent-of-code\src\components\advent\solutions\day8\solution-1\types" />
       <recent name="C:\My projects\advent-of-code\src\components\advent\solutions" />
+      <recent name="C:\My projects\advent-of-code\src\components\advent\solutions\day7" />
       <recent name="C:\My projects\advent-of-code\src\components\advent\solutions\day6" />
-      <recent name="C:\My projects\advent-of-code\src\components\advent\solutions\day5" />
-      <recent name="C:\Users\vsilins\Documents\Github\advent-of-code\advent-of-code\src\components\advent\solutions" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\My projects\advent-of-code\src\components\advent\solutions\day1" />
@@ -65,48 +71,36 @@
       <recent name="C:\My projects\advent-of-code\src\components\advent" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.puzzle.solution()">
-    <configuration name="puzzle.countBags()" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/src/components/advent/solutions/day7/solution-2/solution.test.ts" />
-      <test-names>
-        <test-name value="puzzle" />
-        <test-name value="countBags()" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="puzzle.countBags().should return right answer" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.puzzle.solution().should return right answer">
+    <configuration name="puzzle.simulation.simulation.run().should pass test" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/components/advent/solutions/day7/solution-2/solution.test.ts" />
+      <test-file value="$PROJECT_DIR$/src/components/advent/solutions/day8/solution-1/solution.test.ts" />
       <test-names>
         <test-name value="puzzle" />
-        <test-name value="countBags()" />
-        <test-name value="should return right answer" />
+        <test-name value="simulation" />
+        <test-name value="simulation.run()" />
+        <test-name value="should pass test" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="puzzle.createMapOfBags().should return map of bags" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="puzzle.simulation.simulation.run().should return undefined when simulation stops" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/components/advent/solutions/day7/solution-2/solution.test.ts" />
+      <test-file value="$PROJECT_DIR$/src/components/advent/solutions/day8/solution-1/solution.test.ts" />
       <test-names>
         <test-name value="puzzle" />
-        <test-name value="createMapOfBags()" />
-        <test-name value="should return map of bags" />
+        <test-name value="simulation" />
+        <test-name value="simulation.run()" />
+        <test-name value="should return undefined when simulation stops" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -117,21 +111,41 @@
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/src/components/advent/solutions/day7/solution-2/solution.test.ts" />
+      <test-file value="$PROJECT_DIR$/src/components/advent/solutions/day8/solution-1/solution.test.ts" />
       <test-names>
         <test-name value="puzzle" />
         <test-name value="solution()" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="solution.test.ts (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="puzzle.solution().should pass test" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/src/components/advent/solutions/day7/solution-1/solution.test.ts" />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/advent/solutions/day8/solution-1/solution.test.ts" />
+      <test-names>
+        <test-name value="puzzle" />
+        <test-name value="solution()" />
+        <test-name value="should pass test" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="puzzle.solution().should return right answer" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/advent/solutions/day8/solution-1/solution.test.ts" />
+      <test-names>
+        <test-name value="puzzle" />
+        <test-name value="solution()" />
+        <test-name value="should return right answer" />
+      </test-names>
       <method v="2" />
     </configuration>
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -149,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.puzzle.solution().should return right answer" />
+        <item itemvalue="Jest.puzzle.solution().should pass test" />
+        <item itemvalue="Jest.puzzle.simulation.simulation.run().should return undefined when simulation stops" />
         <item itemvalue="Jest.puzzle.solution()" />
-        <item itemvalue="Jest.puzzle.countBags()" />
-        <item itemvalue="Jest.puzzle.countBags().should return right answer" />
-        <item itemvalue="Jest.puzzle.createMapOfBags().should return map of bags" />
-        <item itemvalue="Jest.solution.test.ts (1)" />
+        <item itemvalue="Jest.puzzle.simulation.simulation.run().should pass test" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +188,8 @@
       <workItem from="1607358457215" duration="723000" />
       <workItem from="1607359283432" duration="9900000" />
       <workItem from="1607444772779" duration="6005000" />
-      <workItem from="1607530023600" duration="10562000" />
+      <workItem from="1607530023600" duration="10650000" />
+      <workItem from="1607874083058" duration="11646000" />
     </task>
     <task id="LOCAL-00001" summary="feat: data output added">
       <created>1607262110096</created>
@@ -260,7 +275,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607450813971</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feat: day 7 solved">
+      <created>1607540777143</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1607540777143</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: day 7 solved">
+      <created>1607540812999</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1607540812999</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,7 +327,8 @@
     <MESSAGE value="feat: day 6 prepared" />
     <MESSAGE value="feat: day 6.1 solved" />
     <MESSAGE value="feat: day 6.2 solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: day 6.2 solved" />
+    <MESSAGE value="feat: day 7 solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: day 7 solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -311,8 +341,19 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/advent/solutions/day7/solution-2/solution.test.ts</url>
           <line>71</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/advent/solutions/day8/solution-1/guards/state.guard.ts</url>
+          <line>3</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/advent/solutions/day8/solution-1/solution.test.ts</url>
+          <line>59</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
